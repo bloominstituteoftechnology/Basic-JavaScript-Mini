@@ -6,6 +6,7 @@ Topics:
 	* arrow functions `=>`
 	* `const`
 	* `let`
+	* String templates
 
 ## Project Description
 
