@@ -1,5 +1,5 @@
 const logger = () = => {
-	message = 'hi';
+	const message = 'hi';
 	console.log(message);
 };
 
