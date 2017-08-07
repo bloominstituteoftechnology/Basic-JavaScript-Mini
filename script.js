@@ -15,7 +15,7 @@ const greet = (name) =>  {
 	console.log(greeting);
 };
 
-let yourName = 'put your name in here';
+const yourName = 'Tyler';
 
 logger();
 looper();
