@@ -1,22 +1,22 @@
-var logger = function() {
-	var message = 'hi';
-	console.log(message);
+const logger = (message) => {
+  console.log(message);
+}
+
+
+const looper = (message) => {
+  for(let i = 0; i < 10; i++) {
+    console.log(message);
+  }
 };
 
-var looper = function() {
-	var message = 'I love JS!';
-	for (var i = 0; i < 10; i++) {
-		console.log(message);
-	}
-};
 
-var greet = function(name) {
-	var greeting = 'Hello ' + name + '!';
-	console.log(greeting);
-};
+vconst greet = (name) => {
+  const greeting = `Hello ${name}!`;
+  console.log(greeting);
+}
 
-var yourName = 'put your name in here';
+const mattFay = 'Matt Fay';
 
-logger();
-looper();
-greet(yourName);
+logger('hi');
+looper('I love JS!');
+greet('Matt');
