@@ -11,7 +11,7 @@ const looper = () => {
 };
 
 const greet = (name) => {
-  var greeting = `Hello ${name}`;
+  const greeting = `Hello ${name}`;
   console.log(greeting);
 };
 
