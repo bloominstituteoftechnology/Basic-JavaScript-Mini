@@ -1,22 +1,17 @@
-var logger = function() {
-  var message = 'hi';
-  console.log(message);
-};
-
-var looper = function() {
-  var message = 'I love JS!';
-  for (var i = 0; i < 10; i++) {
-    console.log(message);
-  }
-};
-
-var greet = function(name) {
-  var greeting = 'Hello ' + name + '!';
-  console.log(greeting);
-};
-
-var yourName = 'put your name in here';
-
-logger();
-looper();
-greet(yourName);
+const logger = (message) => message;
+    console.log(logger(`hi`));
+  
+  const looper = (message) => message;
+    for (let i = 0; i < 10; i++) {
+      console.log(looper(`I love JS!`));
+    }
+  
+    const yourName = 'Chris';
+    const greet = (name) => `Hello ${name}!`;
+    console.log(greet(yourName));
+  
+  
+  
+  logger();
+  looper();
+  greet(yourName);
