@@ -1,5 +1,5 @@
-var logger = function() {
-  var message = 'hi';
+const logger = () => {
+  const message = 'hi';
   console.log(message);
 };
 
