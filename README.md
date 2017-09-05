@@ -16,7 +16,7 @@ Topics:
 * Change the variables to `const` and `let`.
 
 ### Steps for submitting a pull request
-* Change your current working directory to your project: `cd /path/to/project`,
+* Change your current workingg directory to your project: `cd /path/to/project`,
   where `/path/to/project` is the filesystem path to your project directory.
 * Step 1: Add all of your changes: `git add --all`
 * Step 2: Commit your changes: `git commit -m "Changed code to ES6"`
