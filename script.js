@@ -5,17 +5,17 @@ const logger = () => {
 
 const looper = () =>{
   const message = 'I love JS!';
-  for (var i = 0; i < 10; i++) {
+  for (let i = 0; i < 10; i++) {
     console.log(message);
   }
 };
 
-let greet = name => {
-  let greeting = `Hello ${name}!`;
+const greet = name => {
+  const greeting = `Hello ${name}!`;
   console.log(greeting);
 };
 
-var yourName = 'put your name in here';
+const yourName = 'Brandon';
 
 logger();
 looper();
