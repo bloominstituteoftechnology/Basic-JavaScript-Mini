@@ -5,11 +5,9 @@ var logger = function() {
 };
 */
 const logger = () => {
-  let message = 'hi';
+  const message = 'hi';
   console.log(message);
 }
-
-
 
 
 
@@ -23,13 +21,11 @@ var looper = function() {
 };
 */
 const looper = () => {
-  let message = 'I love JS!';
+  const message = 'I love JS!';
   for (let i = 0; i < 10; i++) {
     console.log(message);
   }
 }
-
-
 
 
 
@@ -40,16 +36,14 @@ var greet = function(name) {
 };
 */
 const greet = (name) => {
-  let greeting = 'Hello ${name}!';
+  const greeting = 'Hello ${name}!';
   console.log(greeting);
 }
 
 
 
-
-
 //var yourName = 'put your name in here';
-var yourName = 'Mathew"
+const yourName = 'Mathew"
 
 logger();
 looper();
