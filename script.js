@@ -1,7 +1,4 @@
-const logger = () => {
-  let message = 'hi';
-  console.log(message);
-};
+const logger = () => console.log('hi');
 
 const looper = () => {
   let message = 'I love JS!';
