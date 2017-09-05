@@ -11,11 +11,11 @@ const looper = () => {
 };
 
 const greet = (name) => {
-  const greeting = 'Hello ' + name + '!';
+  const greeting = `Hello ${name}!`;
   console.log(greeting);
 };
 
-const yourName = 'put your name in here';
+const yourName = 'Jacob Stewart';
 
 logger();
 looper();
