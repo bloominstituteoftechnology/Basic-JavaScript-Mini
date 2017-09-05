@@ -10,7 +10,7 @@ const looper = () => {
   }
 };
 
-const greet = name => {
+const greet = (name) => {
   const greeting = `Hello ${name}!`;
   console.log(greeting);
 };
