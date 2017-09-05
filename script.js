@@ -1,4 +1,4 @@
-const logger = function() {
+const logger = () => {
   const message = 'hi';
   console.log(message);
 };
