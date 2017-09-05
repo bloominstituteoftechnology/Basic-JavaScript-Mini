@@ -11,9 +11,10 @@ Topics:
 ## Project Description
 
 ### Initialize Project
-* Change the JavaScript in the script file to use the new ES6 syntax.
+* Change the JavaScript in the script.js file to use the new ES6 syntax.
 * Change the functions to be arrow functions.
 * Change the variables to `const` and `let`.
+* Change any strings you may encounter to use 'template literals'.
 
 ### Steps for submitting a pull request
 * Change your current working directory to your project: `cd /path/to/project`,
