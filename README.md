@@ -11,8 +11,8 @@ Topics:
 ## Project Description
 
 ### Initialize Project
-* Change the JavaScript in the script file to use the new ES6 syntax.
-* Change the functions to be arrow functions.
+* Change the JavaScript in `script.js` so it uses the new ES6 syntax.
+* Re-write the functions as arrow functions.
 * Change the variables to `const` and `let`.
 
 ### Steps for submitting a pull request
